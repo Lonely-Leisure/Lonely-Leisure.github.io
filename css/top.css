@@ -1,3 +1,31 @@
+html {
+    background-color: black;
+}
 .top {
-    background-color: aqua;
+    float: left;
+	height: 50%;
+	margin-bottom: -120px;
+}
+.search {
+    background-color: #ffffff;
+    width: 158px;
+    height: 45px;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+}
+.list_icon {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.text_iframe {
+    width: 90px;
+    height: 30px;
+    float: none;
+}
+.search_icon {
+    width: 30px;
+    height: 30px;
+    float: right;
 }
