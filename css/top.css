@@ -1,3 +1,11 @@
+/* 前置 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
 html {
     background-color: black;
 }
@@ -8,38 +16,81 @@ html {
     padding: 20% 0 0 0;
 }
 
-.search {
-    width: 250px;
-    height: 50px;
-    margin: 0 auto;
-    display:flex;
-    align-items:center   
-}
+/* 未展开状态 */
 
 .text_iframe {
-    background-color: #ffffff;
-    width: 150px;
-    height: 50px;
-    border-radius: 0 45px 45px 0;
-    font-size: 17px;
-    text-align: center;
-    outline: none;
+    display: none;       /* 隐藏 */
 }
 
 .left {
-    background-color: #ffffff;
-    width: 50px;
-    height: 50px;
-    margin: 0 auto;
-    border-radius: 45px 0 0 45px;
-    outline: none;
-    top:1px
+    display: none;      /* 隐藏 */
 }
+
 .right {
     background-color: #ffffff;
-    width: 50px;
-    height: 50px;
     margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    display: block;     /* 显示 */
+    border-radius: 45px;
+    border: none;
+}
+
+.search_icon {
+    margin: 5px 0 0 0 ;
+}
+
+/* 展开状态 */
+
+/* 搜索框展开 */
+.search:hover {
+    background-color: #ffffff;
+    width: 490px;
+    height: 70px;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+    clear:both;
+    border-radius: 45px;
+    display: block;
+}
+
+/* 显示文章列表 */
+.left:hover {
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    float: left;
     border-radius: 45px;
     outline: none;
+    border: none;
+    display: block;
+}
+
+/* 输入框 */
+.text_iframe:hover {
+    width: 350px;
+    height: 70px;
+    font-size: 17px;
+    text-align: center;
+    margin: 0 auto;
+    outline: none;
+    border: none;  
+}
+
+/* 搜索键 */
+.right:hover {
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    float: left;
+    border-radius: 45px;
+    outline: none;
+    border: none;
+}
+
+.list_icon:hover {
+    margin: 5px 0 0 0 ;
 }
