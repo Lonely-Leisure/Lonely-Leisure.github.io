@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+.top {
+    padding: 20% 0;     /* 垂直居中 */
+}
+
+.search {               /* 搜索（隐） */
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 45px;
+}
+
+.text_iframe {          /* 输入框（隐） */
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 45px;
+    font-size:0 ;
+    outline: none;
+    border: none; 
+}
+
+.search:hover {         /* 搜索（显） */  
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 45px;
+}
+
+.text_iframe:hover {    /* 输入框（显） */  
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    text-align: center;
+    margin: 0 auto;
+    outline: none;
+    border: none;  
+}
